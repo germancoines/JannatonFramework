@@ -275,16 +275,14 @@ public class ImagesManager {
         /**
          * This method is the responsible of updating the Sprite image.
          * If its animating the sequence, the animation total time is calculated as
-         * here follows
-         * <p>
+         * here follows:
+         * 
          *  <code>animationTotalTime = (animationTotalTime + animationPeriod) % (long) (1000 * sequenceDuration);</code>
-         * </p>
-         * <br/>
+         * 
          * once the total animation time is calcullated then the position is setted like
-         * <p>
+         * 
          *  <code>position = (int) (this.animationTotalTime / this.showPeriod);</code>
-         * </p>
-         * <br/>
+         * 
          * finally, the method checks if the ImagesAnimator is at the sequence end. If it is,
          * and it shouldn't repeat the sequence, it's stopped.
          * a call to setSpriteImage() is at last made.

@@ -8,16 +8,16 @@ import java.text.DecimalFormat;
 import timers.interfaces.JannatonTimer;
 
 /**
- * <p>This class is the responsible of calculating the frames per second that the
- * GameEngine (or maybe other graphics engine) is offering. </p>
+ * This class is the responsible of calculating the frames per second that the
+ * GameEngine (or maybe other graphics engine) is offering.
  *
- * <p>To get the current stats, it's assumed that at the <code>reportStats()</code>
+ * To get the current stats, it's assumed that at the <code>reportStats()</code>
  * method will be invoked only once at the engine loop (may be at the end, or at
- * the beggining). </br></br>
+ * the beggining).
  *
  * Once the <code>reportStats()</code> has been called, then a call to <code>render()</code>
  * should be made in order to render the status results.
- * </p>
+ * 
  *
  * @author German Coines Laguna
  */

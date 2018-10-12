@@ -535,7 +535,7 @@ public abstract class Sprite implements Renderable, Updatable, Statitzable, Coll
      * Then, the Media instance is asked for the new ImagesAnimator.
      *
      * @param imageName The name for the ImagesManager ArrayList of BufferedImages stored.
-     * @param animationPeriod
+     * @param animationPeriod duration of animation
      * @param sequenceDuration The total
      * @param isRepeating A boolean value indicating wether the animation sequence should
      * be restarted if it reaches the end.

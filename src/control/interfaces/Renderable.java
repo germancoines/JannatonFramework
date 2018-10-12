@@ -20,6 +20,7 @@ public interface Renderable {
      * that may cause several problems.
      *
      * It's not recomended to implement logical operations in the render method.
+     * @param gr Graphics object
      */
     public void render(Graphics gr);
 

@@ -291,7 +291,7 @@ public class SoundsManager {
         /**
          * Constructor.  It initializes the clip field.
          *
-         * @param clip
+         * @param clip Clip instance
          */
         protected ClipPlayer(Clip clip) {
 
@@ -320,6 +320,7 @@ public class SoundsManager {
 
         /**
          * This method loops the Clip for a determinated times. It does nothing if clip is null.
+         * @param loopTimes times the clip is going to be played
          */
         public void loopClip(int loopTimes) {
             if (clip != null) {

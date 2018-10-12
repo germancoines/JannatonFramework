@@ -348,12 +348,12 @@ public class GameEngine extends JPanel implements Runnable {
      * When one loop iteration finishes, a sleepTime value is calculated
      * as here follows: <code>sleepTime = (period - timeDiff) - overSleepTime;</code> 
      * If the iteration loop takes less time than the desired period (that means 
-     * the <code>sleepTime > 0</code> ) the animator Thread will sleep a while
+     * the <code>sleepTime &gt; 0</code> ) the animator Thread will sleep a while
      * giving a chance to other processes or Threads to execute (The Garbage Collector,
      * for example).
      *
      * If the iteration loop has taken more time than the period
-     * (<code>sleepTime > 0</code>), then the excess interval is stored and the delay
+     * (<code>sleepTime $gt; 0</code>), then the excess interval is stored and the delay
      * count is incremented. If it reaches the <code>numberOfDelaysPerYield</code> value,
      * then <code>Thread.yield()</code> is invoked to give a chance to other Threads
      * to execute.
