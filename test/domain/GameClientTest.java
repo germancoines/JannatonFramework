@@ -443,7 +443,7 @@ public class GameClientTest {
     public void testGetPermittedControls() {
         System.out.println("getPermittedControls");
         
-        int[] expResult = { MouseEvent.BUTTON1, KeyEvent.VK_RIGHT, KeyEvent.VK_LEFT};
+        int[] expResult = { MouseEvent.BUTTON1, KeyEvent.VK_LEFT, KeyEvent.VK_RIGHT};
         int[] result = client.getPermittedControls();
 
         assertArrayEquals(expResult, result);
