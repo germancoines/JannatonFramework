@@ -1,6 +1,7 @@
 # Default ignored files
 /shelf/
-/workspace.xml
 
 #IntelliJ IDEA projects
 /out/
+/.idea/workspace.xml
+/.idea/.name
