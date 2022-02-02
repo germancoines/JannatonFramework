@@ -16,7 +16,6 @@ import java.awt.event.MouseWheelEvent;
 import java.util.ArrayList;
 import javax.swing.JPanel;
 import timers.TimerNano;
-import timers.TimerPerf;
 import timers.interfaces.JannatonTimer;
 
 /**
